@@ -4,7 +4,7 @@ from config.constants import MODEL_OPENAI
 
 def get_model_client():
     openai_model_client = OpenAIChatCompletionClient(
-        model=MODEL_OPENAI
+        model=MODEL_OPENAI,
         api_key=os.getenv('OPENAI_API_KEY')
     )
 
