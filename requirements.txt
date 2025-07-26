@@ -1,0 +1,4 @@
+autogen_agentchat
+autogen_ext
+autogen_core
+autogen-ext[docker]
